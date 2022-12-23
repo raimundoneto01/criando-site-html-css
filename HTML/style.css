@@ -139,3 +139,12 @@ header figure h1 {
 #login form .form-footer img {
     margin-left: 20px;
 }
+.direita {
+    display: flex;
+}
+.tenis-1 {
+margin-bottom: 200px;   
+}
+.tenis-2 {
+    margin-top: 200px;
+}
