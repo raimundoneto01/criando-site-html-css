@@ -14,9 +14,10 @@
     --rosa: #c92071;
     --l-space: 0.75;
     --rosa-hover: #b11c64;
+    --banco: #ffffff;
 }
 header {
-    background-color: #ffffff;
+    background-color: var(--banco);
     padding: 25px 128px;
 }
 header figure {
@@ -46,7 +47,7 @@ header figure h1 {
 }
 #login form {
     width: 583px;
-    background-color: #ffffff;
+    background-color: var(--banco);
     border-radius: 4px;
     padding: 30px;
 }
@@ -115,7 +116,7 @@ header figure h1 {
     background-color: var(--rosa);
     border: 0;
     border-radius: 8px;
-    color: #f5f5f5;
+    color: var(--banco);
     font-size: 16px;
     letter-spacing: var(--l-space);
     font-weight: bold;
@@ -157,4 +158,47 @@ header figure h1 {
    width: 455px;
    height: 700px; 
    top: 510.1px; 
+}
+footer {
+    background-color: #1f1f1f;
+    padding: 200px 128px;
+
+}
+footer figure {
+    display: flex;
+}
+footer figure img {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -28px;
+}
+footer figure h1 {
+    color: var(--banco);
+    margin-left: 20px;
+    margin-top: -138px;
+    font-family:'Inter', sans-serif ;
+    font-size: 28px;
+    line-height: 30px;
+}
+footer p {
+    color: var(--banco);
+    margin-top: -80px;
+    width: 307px;
+    height: 40px;
+    margin-left: -30px;
+}
+.footer-1 {
+    display: flex;
+    margin-top: 80px;
+    
+}
+.face {
+    margin-left: -30px;
+
+}
+.insta {
+    margin-left: 36px;  
+}
+.twuiter {
+    margin-left: 40px;    
 }
