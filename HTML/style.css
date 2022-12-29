@@ -159,20 +159,25 @@ header figure h1 {
    height: 700px; 
    top: 510.1px; 
 }
+
+/* trabalhando o footer */
+
 footer {
     background-color: #1f1f1f;
     padding: 200px 128px;
-
-}
-footer figure {
     display: flex;
 }
-footer figure img {
+/* footer quadro-1 */
+
+footer #quadro-1 figure {
+    display: flex;
+}
+footer #quadro-1 figure img {
     position: absolute;
     margin-top: -140px;
     margin-left: -28px;
 }
-footer figure h1 {
+footer #quadro-1 figure h1 {
     color: var(--banco);
     margin-left: 20px;
     margin-top: -138px;
@@ -180,7 +185,7 @@ footer figure h1 {
     font-size: 28px;
     line-height: 30px;
 }
-footer p {
+footer #quadro-1 p {
     color: var(--banco);
     margin-top: -80px;
     width: 307px;
@@ -202,3 +207,26 @@ footer p {
 .twuiter {
     margin-left: 40px;    
 }
+ /* footer quadro-2 */
+ #quadro-2 h3 {
+    color: var(--banco);
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 610px;
+    margin-top: -140px;
+    
+ }
+
+ .parag p {
+    color: var(--banco);
+    width: 135px;
+    height: 228px;
+    line-height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Inter';
+    margin-left: 205px;
+    margin-top: -80px;
+ }
